@@ -7,6 +7,9 @@
 #include <learnopengl/shader_m.h>
 #include "Polygon.h"
 
+/// <summary>
+/// /
+/// </summary>
 class Cube {
 public:
 	Cube();
@@ -26,3 +29,5 @@ private:
 };
 
 #endif // CUBE_H
+
+
