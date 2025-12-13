@@ -135,8 +135,6 @@
     <ClCompile Include="camera.cpp" />
     <ClCompile Include="shader.cpp" />
     <ClCompile Include="Sphere.cpp" />
-    <ClCompile Include="tools\Cube.cpp" />
-    <ClCompile Include="tools\Polygon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OpenGL.SharedModule\OpenGL.SharedModule.vcxproj">
@@ -145,14 +143,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="fragment_shader.glsl" />
-    <None Include="line_fragment.glsl" />
-    <None Include="line_vertex.glsl" />
-    <None Include="shaders\fs\L5-Model.fs" />
-    <None Include="shaders\fs\L5-Multi.fs" />
-    <None Include="shaders\fs\L5.fs" />
-    <None Include="shaders\fs\LightSource.fs" />
-    <None Include="shaders\vs\L5.vs" />
-    <None Include="shaders\vs\LightSource.vs" />
     <None Include="vertex_shader.glsl" />
   </ItemGroup>
   <ItemGroup>
@@ -160,13 +150,6 @@
     <ClInclude Include="Sphere.h" />
     <ClInclude Include="shader.h" />
     <ClInclude Include="stb_image.h" />
-    <ClInclude Include="tools\Cube.h" />
-    <ClInclude Include="tools\Polygon.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\earth.jpg" />
-    <Image Include="..\..\moon.jpg" />
-    <Image Include="..\..\sun.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

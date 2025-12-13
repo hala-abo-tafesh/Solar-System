@@ -19,9 +19,6 @@
     <Filter Include="Source Files\tools">
       <UniqueIdentifier>{912016a9-d223-4d42-ba34-2487005453ce}</UniqueIdentifier>
     </Filter>
-    <Filter Include="textures">
-      <UniqueIdentifier>{209ce2f3-86c5-4ffe-b7a0-ae815f5fdb12}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\OpenGL.SharedModule\src\glad.c">
@@ -36,12 +33,6 @@
     <ClCompile Include="PrimitivesMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="tools\Cube.cpp">
-      <Filter>Source Files\tools</Filter>
-    </ClCompile>
-    <ClCompile Include="tools\Polygon.cpp">
-      <Filter>Source Files\tools</Filter>
-    </ClCompile>
     <ClCompile Include="camera.cpp">
       <Filter>Source Files\tools</Filter>
     </ClCompile>
@@ -53,31 +44,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="shaders\fs\L5.fs">
-      <Filter>Source Files\shaders</Filter>
-    </None>
-    <None Include="shaders\vs\L5.vs">
-      <Filter>Source Files\shaders</Filter>
-    </None>
-    <None Include="shaders\fs\L5-Model.fs">
-      <Filter>Source Files\shaders</Filter>
-    </None>
-    <None Include="shaders\fs\L5-Multi.fs">
-      <Filter>Source Files\shaders</Filter>
-    </None>
-    <None Include="shaders\fs\LightSource.fs">
-      <Filter>Source Files\shaders</Filter>
-    </None>
-    <None Include="shaders\vs\LightSource.vs">
-      <Filter>Source Files\shaders</Filter>
-    </None>
     <None Include="vertex_shader.glsl">
-      <Filter>Source Files\shaders</Filter>
-    </None>
-    <None Include="line_vertex.glsl">
-      <Filter>Source Files\shaders</Filter>
-    </None>
-    <None Include="line_fragment.glsl">
       <Filter>Source Files\shaders</Filter>
     </None>
     <None Include="fragment_shader.glsl">
@@ -85,12 +52,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tools\Polygon.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="tools\Cube.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -103,16 +64,5 @@
     <ClInclude Include="stb_image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\earth.jpg">
-      <Filter>textures</Filter>
-    </Image>
-    <Image Include="..\..\moon.jpg">
-      <Filter>textures</Filter>
-    </Image>
-    <Image Include="..\..\sun.jpg">
-      <Filter>textures</Filter>
-    </Image>
   </ItemGroup>
 </Project>

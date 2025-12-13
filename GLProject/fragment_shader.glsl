@@ -39,7 +39,6 @@ void main()
 
     vec3 baseColor = texture(textureSample, texCoord).rgb;
 
-    // ?? ??? ????? ??????
     float sunRadius = 4.0;
     if (distance(fragPos, sunPos) < sunRadius + 0.1)
     {
@@ -52,7 +51,7 @@ void main()
     vec3 moonLight = CalcLight(moonPos, moonColor, moonIntensity,
                                fragPos, normal, viewDir);
 
-    // ?? ??? ???? ?????
+   
     float moonRadiusSelf = 0.16;
     float distToMoon = distance(fragPos, moonPos);
     vec3 moonSelfLight = vec3(0.08, 0.08, 0.12);

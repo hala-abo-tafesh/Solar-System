@@ -18,4 +18,4 @@ public:
     void Draw();
 };
 
-#endif // SPHERE_H
+#endif 
